@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myblock{
+            animation: myshadow 5s infinite;
+        }
+
+        @keyframes myshadow {
+            100% { text-shadow: 3px 3px 3px rgb(255, 0, 0); }          /*  px qancha kichkina bo'lsa yozuv shuncha qalin bo'ladi */ 
+                 /* 1-o'ng tarafga suradi (agar katta bo'lsa, yoki aksincha) */
+                  /* 2-pasga tortadi */
+                  /* 3-hamma tarafga yoyadi */
+        }
+    </style>
+</head>
+<body style="background-color: blueviolet;">
+    <div class="myblock">Men juda hursandman...</div>
+</body>
+</html>

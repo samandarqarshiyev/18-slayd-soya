@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            white-space: nowrap;
+            width: 50px;
+            overflow: hidden;
+            text-overflow: clip;               /*   clip siqqinucha   */
+            border: 1px solid black;
+        }
+        .b{
+            white-space: nowrap;
+            width: 50px;
+            overflow: hidden;
+            text-overflow: ellipsis;          /*   ellipsis ortiqchasi o'chadi   */
+            border: 1px solid black;
+        }
+        .b:hover{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">Monday Monday Monday Monday Monday Monday Monday </div>
+
+    <div class="b">Monday Monday Monday Monday Monday Monday Monday </div>
+</body>
+</html>
